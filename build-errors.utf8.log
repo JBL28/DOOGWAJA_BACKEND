@@ -1,0 +1,156 @@
+﻿
+> Task :compileJava
+.\gradlew : C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnack\controller\Bough
+tSnackController.java:7: error: cannot find symbol
+위치 줄:1 문자:45
++ ... SAFY\JDK25\openJdk-25"; .\gradlew compileJava > build-errors.log 2>&1
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\SSAFY\...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+import dev.ssafy.global.response.PaginatedResponse;
+                                ^
+  symbol:   class PaginatedResponse
+  location: package dev.ssafy.global.response
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnack\service\BoughtSnackService.j
+ava:16: error: cannot find symbol
+import dev.ssafy.global.response.PaginatedResponse;
+                                ^
+  symbol:   class PaginatedResponse
+  location: package dev.ssafy.global.response
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnack\controller\BoughtSnackContro
+ller.java:22: error: cannot find symbol
+    public ResponseEntity<PaginatedResponse<BoughtSnackDto.Response>> getBoughtSnacks(
+                          ^
+  symbol:   class PaginatedResponse
+  location: class BoughtSnackController
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnack\service\BoughtSnackService.j
+ava:42: error: cannot find symbol
+    public PaginatedResponse<BoughtSnackDto.Response> getBoughtSnacks(int page, int pageSize, BoughtSnackStatus
+Enum status) {
+           ^
+  symbol:   class PaginatedResponse
+  location: class BoughtSnackService
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnackcomment\controller\BoughtSnac
+kCommentController.java:6: error: cannot find symbol
+import dev.ssafy.global.response.PaginatedResponse;
+                                ^
+  symbol:   class PaginatedResponse
+  location: package dev.ssafy.global.response
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnackcomment\service\BoughtSnackCo
+mmentService.java:13: error: cannot find symbol
+import dev.ssafy.global.response.PaginatedResponse;
+                                ^
+  symbol:   class PaginatedResponse
+  location: package dev.ssafy.global.response
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnackcomment\controller\BoughtSnac
+kCommentController.java:21: error: cannot find symbol
+    public ResponseEntity<PaginatedResponse<BoughtSnackCommentDto.Response>> getComments(
+                          ^
+  symbol:   class PaginatedResponse
+  location: class BoughtSnackCommentController
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnackcomment\service\BoughtSnackCo
+mmentService.java:34: error: cannot find symbol
+    public PaginatedResponse<BoughtSnackCommentDto.Response> getComments(Long purchaseId, int page, int pageSiz
+e) {
+           ^
+  symbol:   class PaginatedResponse
+  location: class BoughtSnackCommentService
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendation\controller\Recommendation
+Controller.java:5: error: cannot find symbol
+import dev.ssafy.global.response.PaginatedResponse;
+                                ^
+  symbol:   class PaginatedResponse
+  location: package dev.ssafy.global.response
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendation\service\RecommendationSer
+vice.java:12: error: cannot find symbol
+import dev.ssafy.global.response.PaginatedResponse;
+                                ^
+  symbol:   class PaginatedResponse
+  location: package dev.ssafy.global.response
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendation\controller\Recommendation
+Controller.java:20: error: cannot find symbol
+    public ResponseEntity<PaginatedResponse<RecommendationDto.Response>> getRecommendations(
+                          ^
+  symbol:   class PaginatedResponse
+  location: class RecommendationController
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendation\controller\Recommendation
+Controller.java:28: error: cannot find symbol
+    public ResponseEntity<ApiResponse<RecommendationDto.Response>> getRecommendationDetail(
+                          ^
+  symbol:   class ApiResponse
+  location: class RecommendationController
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendation\controller\Recommendation
+Controller.java:35: error: cannot find symbol
+    public ResponseEntity<ApiResponse<RecommendationDto.Response>> createRecommendation(
+                          ^
+  symbol:   class ApiResponse
+  location: class RecommendationController
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendation\controller\Recommendation
+Controller.java:43: error: cannot find symbol
+    public ResponseEntity<ApiResponse<RecommendationDto.Response>> updateRecommendation(
+                          ^
+  symbol:   class ApiResponse
+  location: class RecommendationController
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendation\controller\Recommendation
+Controller.java:51: error: cannot find symbol
+    public ResponseEntity<ApiResponse<Void>> deleteRecommendation(
+                          ^
+  symbol:   class ApiResponse
+  location: class RecommendationController
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendation\service\RecommendationSer
+vice.java:34: error: cannot find symbol
+    public PaginatedResponse<RecommendationDto.Response> getRecommendations(int page, int pageSize) {
+           ^
+  symbol:   class PaginatedResponse
+  location: class RecommendationService
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendationcomment\controller\Recomme
+ndationCommentController.java:6: error: cannot find symbol
+import dev.ssafy.global.response.PaginatedResponse;
+                                ^
+  symbol:   class PaginatedResponse
+  location: package dev.ssafy.global.response
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendationcomment\service\Recommenda
+tionCommentService.java:15: error: cannot find symbol
+import dev.ssafy.global.response.PaginatedResponse;
+                                ^
+  symbol:   class PaginatedResponse
+  location: package dev.ssafy.global.response
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendationcomment\controller\Recomme
+ndationCommentController.java:21: error: cannot find symbol
+    public ResponseEntity<PaginatedResponse<RecommendationCommentDto.Response>> getComments(
+                          ^
+  symbol:   class PaginatedResponse
+  location: class RecommendationCommentController
+C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\recommendationcomment\service\Recommenda
+tionCommentService.java:40: error: cannot find symbol
+    public PaginatedResponse<RecommendationCommentDto.Response> getComments(Long orderId, int page, int pageSiz
+e) {
+           ^
+  symbol:   class PaginatedResponse
+  location: class RecommendationCommentService
+20 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/SSAFY/lab/DOGWAJA/back/backend/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\SSAFY\lab\DOGWAJA\back\backend\src\main\java\dev\ssafy\domain\boughtsnack\controller\BoughtSnackCont
+roller.java:7: error: cannot find symbol
+  import dev.ssafy.global.response.PaginatedResponse;
+                                  ^
+    symbol:   class PaginatedResponse
+    location: package dev.ssafy.global.response
+  20 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 4s
+1 actionable task: 1 executed
